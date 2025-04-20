@@ -18,5 +18,84 @@
     font-family: system-ui;
     color: ghostwhite;
     font-size: 37px;
+}
+
+.main-presentation h1,
+.main-presentation h4 {
     margin: 0;
+    padding-left: 15px;
+}
+
+.typewriter h1 {
+    padding-left: 10px;
+    display: inline-block; /* Ajusta el ancho al contenido */
+    overflow: hidden; 
+    border-right: 0.08em solid white; /* Cursor de la máquina de escribir */
+    white-space: nowrap; /* Mantiene el texto en una sola línea */
+    letter-spacing: 0.10em; /* Espaciado entre letras */
+    width: 22ch;
+    animation: 
+        typing 3.0s steps(22, end), /* Efecto de escritura */
+        blink-caret 0.75s step-end infinite; /* Efecto de parpadeo del cursor */
+}
+
+/* Efecto de escritura */
+@keyframes typing {
+    from { width: 0; }
+    to { width: 22ch; }
+}
+
+/* Efecto de parpadeo del cursor */
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: white; }
+}
+
+.about-me-container {
+    display: flex; /* Organiza los elementos en una fila */
+    align-items: center; /* Alinea verticalmente los elementos */
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin-top: 150px;
+    text-align: left;
+    padding: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 20px; /* Espaciado entre la imagen y el contenido */
+    animation: appear 1s linear; /* Animación de aparición */
+}
+
+.about-me-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Opcional: hace la imagen circular */
+}
+
+.about-me-container-content {
+    display: flex;
+    flex-direction: column; /* Organiza el título y el texto en una columna */
+}
+
+.about-me-container-content h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    font-size: 37px;
+}
+
+.about-me-container-content p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0.5;
+    }
+    to {
+        opacity: 1;
+        scale: 0.5;
+    }
 }
