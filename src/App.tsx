@@ -1,15 +1,12 @@
 import Menubar from './Components/MenuBar'
+import MainContent from './Components/MainContent'
 import React from 'react'
-import './App.css'
 
 const App: React.FC = () => {
   return ( 
     <>
     <Menubar/> 
-      <div>
-        <p>Hola</p>
-      </div> 
-    
+    <MainContent/>
     </> 
   )
 }
