@@ -24,11 +24,11 @@ const MainContent: React.FC = () => {
             Destaco mis habilidades en resolución de problemas y mi enfoque proactivo hacia el desarrollo frontend con React, lo que me permite abordar soluciones de extremo a extremo de forma integral.
             <br />
             Mi objetivo es seguir creciendo en entornos dinámicos, aportando valor a todos los equipos donde participe y siempre con una mentalidad de mejora continua.
-            </p>
+          </p>
         </div>
       </div>
       <div className='technologies-container'>
-        <h1>Tecnologias</h1>
+        <h1>Habilidades</h1>
         <br />
         <div className='slider'>
           <div className="slide-track">
@@ -155,6 +155,34 @@ const MainContent: React.FC = () => {
               <img src="src/Assets/SAP_ABAP.png " alt="ABAP" />
             </div>
 
+          </div>
+        </div>
+      </div>
+      <div className='experience-container'>
+        <h1> Experiencia </h1>
+        <div className='experience-container-content'>
+          <div className='experience-card'>
+            <h2>Junior developer</h2>
+            <h3>ITA</h3>
+            <p>2024 - Actualidad</p>
+            <p>Desarrollo de aplicaciones backend en Python y ABAP, así como la implementación de soluciones en la nube con AWS e integración de interfaces frontend con React ⚛.</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h1> Proyectos </h1>
+        <div className='projects-container'>
+          <div className='project-card'>
+            <h2>Proyecto 1</h2>
+            <p>Descripción del proyecto 1.</p>
+          </div>
+          <div className='project-card'>
+            <h2>Proyecto 2</h2>
+            <p>Descripción del proyecto 2.</p>
+          </div>
+          <div className='project-card'>
+            <h2>Proyecto 3</h2>
+            <p>Descripción del proyecto 3.</p>
           </div>
         </div>
       </div>
