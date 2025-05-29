@@ -10,7 +10,7 @@ const MainContent: React.FC = () => {
         <div className='typewriter'>
           <h1>Dylan Alzate Betancur.</h1>
         </div>
-        <h4>Software developer</h4>
+        <h4>Fullstack developer</h4>
       </div>
       <div className='about-me-container'>
         <img src="src\Assets\dalzatephoto.jpg" alt="" />
@@ -189,30 +189,62 @@ const MainContent: React.FC = () => {
           <div className="experience-card-content">
             <p>Desarrollo de aplicaciones backend en Python y ABAP, así como la implementación de soluciones en la nube con AWS e integración de interfaces frontend con React.</p>
             <button>React</button>
+            <button>Typescript</button>
             <button>Python</button>
             <button>AWS</button>
             <button>SQLite</button>
             <button>Abap</button>
           </div>
         </div>
-        
+
       </div>
 
-        <h1 style={{textAlign:'center'}}> Proyectos </h1>
-        <div className='projects-container'>
-          <div className='project-card-left'>
-            <h2>Proyecto 1</h2>
-            <p>Descripción del proyecto 1.</p>
-          </div>
-          <div className='project-card-right'>
-            <h2>Proyecto 2</h2>
-            <p>Descripción del proyecto 2.</p>
-          </div>
-          <div className='project-card'>
-            <h2>Proyecto 3</h2>
-            <p>Descripción del proyecto 3.</p>
+      <h1 style={{ textAlign: 'center' }}> Proyectos </h1>
+      <div className='projects-container'>
+        <div className='project-card-left'>
+          <h2>ITASIA - Frontend</h2>
+          <p>Responsable del desarrollo completo del frontend para el proyecto itasia.</p>
+          <p>Construcción de interfaces, implementación funcionalidades clave como: autenticación, formularios dinámicos, consumo de APIs REST, dashboards y gráficos.</p> <br />
+          <div className='project-card-content'>
+            <button>React</button>
+            <button>Typescript</button>
           </div>
         </div>
+        <div className='project-card-right'>
+          <h2>ITASIA - Backend</h2>
+          <p>Encargado del modulo de autenticacion, envio de correos, CRUD de usuarios, generación de graficas.</p>
+          <br />
+          <div className='project-card-content'>
+            <button>Python</button>
+            <button>RestAPI</button>
+            <button>Postman</button>
+            <button>JWT</button>
+            <button>AWS Lambda</button>
+            <button>Stepfunctions</button>
+            <button>NoSQL(DynamoDB)</button>
+          </div>
+        </div>
+        <div className='project-card-left'>
+          <h2>Prueba concepto Chatbot</h2>
+          <p>Prueba concepto de un chatbot de whats'app para el pago de SOAT conectado al sistema sap </p><p>de la Gobernación de Antioquia por medio del consumo de un web service tipo SOAP creado desde ABAP.</p><br />
+          <div className='project-card-content'>
+            <button>Python(Flask)</button>
+            <button>Web Service(abap SOAP)</button>
+          </div>
+        </div>
+        <div className='project-card-right'>
+          <h2>Odata for build day</h2>
+          <p>Descripción del proyecto 3.</p>
+        </div>
+        <div className='project-card-left'>
+          <h2>Prueba concepto Chatbot</h2>
+          <p>Descripción del proyecto 3.</p>
+        </div>
+        <div className='project-card-right'>
+          <h2>Remediación GOBANT</h2>
+          <p>Descripción del proyecto 3.</p>
+        </div>
+      </div>
     </>
   );
 };

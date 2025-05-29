@@ -88,9 +88,8 @@
 
 .about-me-container-content h1 {
   margin: 0;
-  font-size: 24px;
-  font-weight: bold;
   font-size: 37px;
+  font-weight: bold;
 }
 
 .about-me-container-content p {
@@ -227,6 +226,7 @@
   animation-timeline: view();
   animation-range: entry 0;
   align-items: end;
+  margin-bottom: 10px;
 
 }
 
@@ -236,5 +236,27 @@
       animation: appear 1s linear;
   animation-timeline: view();
   animation-range: entry 0;
-  align-items: start;  
+  align-items: start; 
+    margin-bottom: 10px; 
+}
+
+.projects-container p {
+  margin-top: 5px; 
+  margin-bottom: 5px;
+  line-height: 1.5; 
+}
+
+.project-card-content{
+  margin-top: -1rem;
+}
+
+.project-card-content button{
+ padding: .5em;
+ padding-inline: 10px;
+ margin-right: .6rem;
+ background-color: transparent;
+ border: 1px solid #83898f;
+ color: white;
+ border-radius: 15px;
+ cursor: text;
 }
