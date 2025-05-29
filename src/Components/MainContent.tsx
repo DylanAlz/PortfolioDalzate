@@ -159,24 +159,52 @@ const MainContent: React.FC = () => {
         </div>
       </div>
       <div className='experience-container'>
-        <h1> Experiencia </h1>
-        <div className='experience-container-content'>
-          <div className='experience-card'>
-            <h2>Junior developer</h2>
-            <h3>ITA</h3>
+        <h1 style={{ paddingBottom: '2rem' }}> Experiencia </h1>
+        <div className='experience-card'>
+          <h2 style={{
+            marginBottom: '-1rem'
+          }}>Junior developer</h2>
+          <div className='experience-card-header'>
+            <h5>ITA</h5>
             <p>2024 - Actualidad</p>
-            <p>Desarrollo de aplicaciones backend en Python y ABAP, así como la implementación de soluciones en la nube con AWS e integración de interfaces frontend con React ⚛.</p>
+          </div>
+          <div className="experience-card-content">
+            <p>Desarrollo de aplicaciones backend en Python y ABAP, así como la implementación de soluciones en la nube con AWS e integración de interfaces frontend con React.</p>
+            <button>React</button>
+            <button>Python</button>
+            <button>AWS</button>
+            <button>SQLite</button>
+            <button>Abap</button>
           </div>
         </div>
+
+        <div className='experience-card'>
+          <h2 style={{
+            marginBottom: '-1rem'
+          }}>Junior developer</h2>
+          <div className='experience-card-header'>
+            <h5>ITA</h5>
+            <p>2024 - Actualidad</p>
+          </div>
+          <div className="experience-card-content">
+            <p>Desarrollo de aplicaciones backend en Python y ABAP, así como la implementación de soluciones en la nube con AWS e integración de interfaces frontend con React.</p>
+            <button>React</button>
+            <button>Python</button>
+            <button>AWS</button>
+            <button>SQLite</button>
+            <button>Abap</button>
+          </div>
+        </div>
+        
       </div>
-      <div>
-        <h1> Proyectos </h1>
+
+        <h1 style={{textAlign:'center'}}> Proyectos </h1>
         <div className='projects-container'>
-          <div className='project-card'>
+          <div className='project-card-left'>
             <h2>Proyecto 1</h2>
             <p>Descripción del proyecto 1.</p>
           </div>
-          <div className='project-card'>
+          <div className='project-card-right'>
             <h2>Proyecto 2</h2>
             <p>Descripción del proyecto 2.</p>
           </div>
@@ -185,7 +213,6 @@ const MainContent: React.FC = () => {
             <p>Descripción del proyecto 3.</p>
           </div>
         </div>
-      </div>
     </>
   );
 };

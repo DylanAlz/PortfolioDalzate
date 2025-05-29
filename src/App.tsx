@@ -3,11 +3,11 @@ import MainContent from './Components/MainContent'
 import React from 'react'
 
 const App: React.FC = () => {
-  return ( 
+  return (
     <>
-    <Menubar/> 
-    <MainContent/>
-    </> 
+      <Menubar />
+      <MainContent />
+    </>
   )
 }
 
