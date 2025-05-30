@@ -27,6 +27,26 @@ const MainContent: React.FC = () => {
           </p>
         </div>
       </div>
+            <div className='experience-container'>
+        <h1 style={{ paddingBottom: '2rem' }}> Experiencia </h1>
+        <div className='experience-card'>
+          <h2 style={{
+            marginBottom: '-1rem'
+          }}>Junior developer</h2>
+          <div className='experience-card-header'>
+            <h5>ITA</h5>
+            <p>2024 - Actualidad</p>
+          </div>
+          <div className="experience-card-content">
+            <p>Desarrollo de aplicaciones backend en Python y ABAP, así como la implementación de soluciones en la nube con AWS e integración de interfaces frontend con React.</p>
+            <button>React</button>
+            <button>Python</button>
+            <button>AWS</button>
+            <button>SQLite</button>
+            <button>Abap</button>
+          </div>
+        </div>
+      </div>
       <div className='technologies-container'>
         <h1>Habilidades</h1>
         <br />
@@ -158,46 +178,7 @@ const MainContent: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className='experience-container'>
-        <h1 style={{ paddingBottom: '2rem' }}> Experiencia </h1>
-        <div className='experience-card'>
-          <h2 style={{
-            marginBottom: '-1rem'
-          }}>Junior developer</h2>
-          <div className='experience-card-header'>
-            <h5>ITA</h5>
-            <p>2024 - Actualidad</p>
-          </div>
-          <div className="experience-card-content">
-            <p>Desarrollo de aplicaciones backend en Python y ABAP, así como la implementación de soluciones en la nube con AWS e integración de interfaces frontend con React.</p>
-            <button>React</button>
-            <button>Python</button>
-            <button>AWS</button>
-            <button>SQLite</button>
-            <button>Abap</button>
-          </div>
-        </div>
 
-        <div className='experience-card'>
-          <h2 style={{
-            marginBottom: '-1rem'
-          }}>Junior developer</h2>
-          <div className='experience-card-header'>
-            <h5>ITA</h5>
-            <p>2024 - Actualidad</p>
-          </div>
-          <div className="experience-card-content">
-            <p>Desarrollo de aplicaciones backend en Python y ABAP, así como la implementación de soluciones en la nube con AWS e integración de interfaces frontend con React.</p>
-            <button>React</button>
-            <button>Typescript</button>
-            <button>Python</button>
-            <button>AWS</button>
-            <button>SQLite</button>
-            <button>Abap</button>
-          </div>
-        </div>
-
-      </div>
 
       <h1 style={{ textAlign: 'center' }}> Proyectos </h1>
       <div className='projects-container'>
@@ -212,7 +193,7 @@ const MainContent: React.FC = () => {
         </div>
         <div className='project-card-right'>
           <h2>ITASIA - Backend</h2>
-          <p>Encargado del modulo de autenticacion, envio de correos, CRUD de usuarios, generación de graficas.</p>
+          <p>Encargado del modulo de autenticacion, envio de correos, CRUD de usuarios y generación de graficas. </p>
           <br />
           <div className='project-card-content'>
             <button>Python</button>
@@ -233,16 +214,29 @@ const MainContent: React.FC = () => {
           </div>
         </div>
         <div className='project-card-right'>
-          <h2>Odata for build day</h2>
-          <p>Descripción del proyecto 3.</p>
+          <h2>Odata creación de materiales</h2>
+          <p>Encargado de la creación de Odata para la creación de materiales en un sistema sap desde SAP Build Apps.</p><br />
+          <div className='project-card-content'>
+            <button>REST Odata</button>
+            <button>Sap ABAP</button>
+          </div>
         </div>
         <div className='project-card-left'>
-          <h2>Prueba concepto Chatbot</h2>
-          <p>Descripción del proyecto 3.</p>
+          <h2>Build day Haceb</h2>
+          <p>Responsable de dictar la capacitacion sobre las herramientas low-code de sap en la nube para ©Haceb e ©ITA.</p><br />
+          <div className='project-card-content'>
+            <button>SAP BTP</button>
+            <button>SAP Build</button>
+            <button>REST Odata</button>
+          </div>
         </div>
         <div className='project-card-right'>
-          <h2>Remediación GOBANT</h2>
-          <p>Descripción del proyecto 3.</p>
+          <h2>POC ITA-SIA</h2>
+          <p>Prueba concepto inicial del programa ITA-SIA para el analisis de los programas custom.</p><br />
+          <div className='project-card-content'>
+            <button>Django</button>
+            <button>SAP Abap</button>
+          </div>
         </div>
       </div>
     </>
