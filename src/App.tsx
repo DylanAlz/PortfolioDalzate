@@ -1,5 +1,6 @@
 import Menubar from './Components/MenuBar'
 import MainContent from './Components/MainContent'
+import Footer from './Components/Footer'
 import React from 'react'
 
 const App: React.FC = () => {
@@ -7,6 +8,7 @@ const App: React.FC = () => {
     <>
       <Menubar />
       <MainContent />
+      <Footer />
     </>
   )
 }
