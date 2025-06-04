@@ -3,5 +3,6 @@ body {
   font-family: system-ui;
   color: ghostwhite;
   padding-top: 50px;
+  margin: 0;
   /* padding: 100vh; */
 }
