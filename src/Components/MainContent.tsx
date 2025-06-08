@@ -1,6 +1,8 @@
 import React from 'react';
 import Spline from '@splinetool/react-spline';
 import '../Styles/mainContent.css';
+import dalzatephoto from '../Assets/dalzatephoto.jpg';
+import abaplogo from '../Assets/SAP_ABAP.png';
 
 const MainContent: React.FC = () => {
   return (
@@ -14,7 +16,7 @@ const MainContent: React.FC = () => {
       </div>
       <section id='sobre-mi'><br />
         <div className='about-me-container'>
-          <img src="src\Assets\dalzatephoto.jpg" alt="" />
+          <img src={dalzatephoto} alt="" />
           <div className='about-me-container-content'>
             <h1>Sobre mi</h1>
             <p>
@@ -115,7 +117,7 @@ const MainContent: React.FC = () => {
               </div>
 
               <div className="slide">
-                <img src="src/Assets/SAP_ABAP.png " alt="ABAP" />
+                <img src={abaplogo} alt="ABAP" />
               </div>
 
               {/* Repetimos el contenido para efecto de slider */}
@@ -177,7 +179,7 @@ const MainContent: React.FC = () => {
               </div>
 
               <div className="slide">
-                <img src="src/Assets/SAP_ABAP.png " alt="ABAP" />
+                <img src={abaplogo} alt="ABAP" />
               </div>
 
             </div>
