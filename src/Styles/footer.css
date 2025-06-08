@@ -30,6 +30,12 @@ footer {
     margin-bottom: 10px; /* Espacio entre los elementos de la lista */
 }
 
+.footer-row li a {
+    list-style: none;
+    text-decoration: none;
+    color: #94948e; 
+}
+
 .footer-row h3 {
   margin-bottom: 30px;
   position: relative;

@@ -13,9 +13,10 @@ const Footer: React.FC = () => {
                     <div className="footer-row">
                         <h3>Links</h3>
                         <ul>
-                            <li>Projects</li>
-                            <li>Skills</li>
-                            <li>Experience</li>
+                            <li><a href="#sobre-mi">Sobre mi</a></li>
+                            <li><a href="#experiencia">Experiencia</a></li>
+                            <li><a href="#habilidades">Habilidades</a></li>
+                            <li><a href="#proyectos">Proyectos</a></li>
                         </ul>
                     </div>
                     <div className="footer-row">

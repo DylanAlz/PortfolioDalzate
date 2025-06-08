@@ -175,6 +175,8 @@
 
 .experience-container {
   padding: 3rem;
+  margin-left: 10px;
+  margin-right: 10px;
     border-bottom: 1px solid;
   animation: appear 1s linear;
   animation-timeline: view();
