@@ -1,6 +1,6 @@
 footer {
    background: linear-gradient(to top, #111827, rgba(17, 24, 39, 0.466)); 
-     box-shadow: 0 -20px 30px rgba(17, 24, 39, 0.486); /* Difuminado hacia arriba */
+     box-shadow: 0 -20px 30px rgba(17, 24, 39, 0.486); 
   width: 100%;
   position: relative;
   margin: 0;
@@ -8,13 +8,13 @@ footer {
 }
 
 .footer-content {
-  padding: 0 30px; /* Ajusta el padding interno si es necesario */
+  padding: 0 30px; 
 }
 
 .row {
   display: flex;
   justify-content: space-between;
-  padding: 20px 0; /* Ajusta el padding superior/inferior */
+  padding: 20px 0; 
 }
 
 .footer-row ul {
@@ -27,7 +27,7 @@ footer {
 .footer-row li {
     list-style: none;
     text-decoration: none;
-    margin-bottom: 10px; /* Espacio entre los elementos de la lista */
+    margin-bottom: 10px; 
 }
 
 .footer-row li a {
@@ -44,4 +44,28 @@ footer {
 
 .footer-row p {
   color: #94948e;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-content {
+    padding: 0 20px; 
+  }
+
+  .row {
+    flex-direction: column;
+    align-items: left;
+  }
+
+  .footer-row h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .footer-row ul {
+    text-align: left; 
+  }
+
+  .footer-row li {
+    margin-bottom: 10px; 
+  }
 }

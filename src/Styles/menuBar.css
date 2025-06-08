@@ -39,7 +39,7 @@
 #start:link,
 #start:visited,
 #start:active {
-  color: #d3d3d3; /* Mantén el mismo color en todos los estados */
+  color: #d3d3d3; 
   transition: 0.5s;
   text-decoration: none;
   font-weight: bold;
