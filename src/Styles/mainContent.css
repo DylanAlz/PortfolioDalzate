@@ -71,6 +71,7 @@ h4 {
   animation: appear 1s linear;
   animation-timeline: view();
   animation-range: entry 0;
+  margin-bottom: 20px;
 }
 
 .about-me-container img {
